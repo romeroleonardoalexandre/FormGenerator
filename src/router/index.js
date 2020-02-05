@@ -2,7 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Dashboard Components
-import dashboard from '../views/dashboard'
+//import dashboard from '../views/dashboard'
+
+//Playground
+import playground from '../views/playground'
 
 // Widgets
 import widgets from '../views/widgets'
@@ -36,10 +39,16 @@ Vue.use(Router)
 
 export default new Router({
   linkActiveClass: 'active',
-  routes: [{
+  routes: [
+  /*{
     path: '/',
     name: 'dashboard',
     component: dashboard
+  },*/
+  {
+    path: '/',
+    name: 'playground',
+    component: playground
   },
   {
     path: '/widgets',
