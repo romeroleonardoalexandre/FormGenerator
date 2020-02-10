@@ -29,7 +29,7 @@
 
 <script lang="js">
 export default {
-  name: 'dashboard'
+  name: 'playground'
 }
 </script>
 
