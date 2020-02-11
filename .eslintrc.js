@@ -2,6 +2,10 @@
 
 module.exports = {
   root: true,
+  globals: {
+    "$": true,
+    "jQuery": true
+  },
   parserOptions: {
     parser: 'babel-eslint'
   },
