@@ -44,6 +44,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       poll: config.dev.poll,
     }
   },
+  resolve: {
+    alias: {
+        'jquery-ui': 'jquery-ui-dist/jquery-ui.js'
+    }
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': require('../config/dev.env')

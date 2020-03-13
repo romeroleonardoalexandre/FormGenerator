@@ -22,8 +22,9 @@
 import AppHeader from '../src/components/partials/AppHeader'
 import AppSidebar from '../src/components/partials/AppSidebar'
 import AppFooter from '../src/components/partials/AppFooter'
+
 export default{
-  name: 'main',
+  name: 'mains',
   components: {
     AppHeader,
     AppSidebar,
